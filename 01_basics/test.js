@@ -1,1 +1,0 @@
-console.log("tmkc 69 baar");
