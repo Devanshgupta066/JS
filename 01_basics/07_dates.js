@@ -25,7 +25,7 @@ let newDate = new Date();
 
 // console.log(newDate);
 // console.log(newDate.getMonth() + 1);//in JS month generally starts from 0
-// console.log(newDate.getDay());
+console.log(newDate.getDay());
 
 //can customise timezone
 newDate.toLocaleString('default',{
