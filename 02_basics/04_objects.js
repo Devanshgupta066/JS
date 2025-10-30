@@ -30,12 +30,12 @@ const obj4 = {obj1, obj2}
 const obj6 =  Object.assign({}, obj1, obj2, obj3)//add an empty target object
 
 // console.log(obj5);
-console.log(obj6);
-console.log(obj1);//ab target object obj1 nahi hai to usme add nahi hoga 
+// console.log(obj6);
+// console.log(obj1);//ab target object obj1 nahi hai to usme add nahi hoga 
 
 const obj7 = {...obj1,...obj2,...obj3}//Best is spreading technique
 
-console.log(obj7);
+// console.log(obj7);
 
 const users = [
     {
@@ -59,13 +59,42 @@ const users = [
         id: "55"
     }
 ]
-console.log(users[0].id);
+// console.log(users[0].id);
 
-console.log(tinderuser);
+// console.log(tinderuser);
 
-console.log(Object.keys(tinderuser));//can use these later 
-console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser));
+// console.log(Object.keys(tinderuser));//can use these later 
+// console.log(Object.values(tinderuser));
+// console.log(Object.entries(tinderuser));
 
-console.log(tinderuser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderuser.hasOwnProperty('isLoggedIn'));
 
+//*********************Object De-structuring **********************//
+
+const course = {
+    coursename: "JS in Hindi",
+    price: "999",
+    courseInstructor: "Chaiwala"
+}
+
+// course.courseInstructor
+
+//to fetch
+const {courseInstructor: instructor} = course//can rename a key too
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+
+//  {
+//     "name": "dev",
+//     "course": "JS in hindi",
+//     "price": "free"
+//  }
+
+[
+    {},
+    {},
+    {},
+    {}
+]
