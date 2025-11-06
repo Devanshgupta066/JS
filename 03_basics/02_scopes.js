@@ -10,3 +10,20 @@ if(true){
 }
 
 console.log(a);
+
+//*****************Interesting********************//
+
+
+console.log(addOne(5));
+
+function addOne(num){
+    return num + 1;
+}
+
+console.log(addTwo(7));
+
+
+const addTwo = function(num){
+    return num + 2;
+}
+
